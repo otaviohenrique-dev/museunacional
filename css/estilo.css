@@ -24,7 +24,9 @@ a:hover{
     border: 1px red solid;
     margin: 0 auto;
 }
-
+#logo h1{
+    float:left;
+}
 #logo a {
     width: 248px;
     height: 21px;
@@ -54,3 +56,83 @@ nav ul li a:link{
     padding-bottom: 3px;
     text-transform: uppercase;
 }
+
+/* Principal
+------------------------------------------*/
+
+#conteudo{
+    width: 710px;
+    float: left;
+    background:green;
+}
+aside{
+    width: 350px;
+    float:right;
+    background: #ebe7dd;
+    padding-bottom: 30px;
+}
+
+section#visita{
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/* Formulários
+------------------------------------------*/
+input{
+    height: 20px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo{
+    border: 1px solid #ada484;
+}
+
+input.botao{
+    background: #9b9271;
+    color: white;
+    height: 40px;
+    width: 100%;
+}
+fieldset{
+    border: none;   
+}
+fieldset legend{
+    display: none;
+}
+
+/* Galeria
+------------------------------------------*/
+section#galeria{
+    padding: 0 27px 0 27px;
+}
+section#galeria ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+section#galeria ul img{
+    width: 93px;
+    height: 93px;
+    padding: 5px;
+    filter: grayscale();
+}
+section#galeria ul img:hover{
+    filter:none;
+    transition: filter 0.5s;
+}
+section#galeria ul li a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    padding: 16px 15px 18px 15px;
+}
+
